@@ -2,4 +2,4 @@
 
 AHMED MIRZA **LEADER**
 
-IBAD SHAHID **Contributor**
+IBADULLAH **Contributor**
