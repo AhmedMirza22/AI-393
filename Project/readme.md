@@ -2,11 +2,11 @@
 
 
 
-**NAME : IBADULLAH  
-ST ID : 63052
+**NAME : IBADULLAH**
+**STUDENT-ID : 63052**
 
-NAME : AHMED MIRZA
-ST ID : 63254** (Group Leader)
+**NAME : AHMED MIRZA**
+**STUDENT-ID : 63254** (Group Leader)
 
 
 Cross-verification is a mathematical method used to measure the ability of machine learning models.
