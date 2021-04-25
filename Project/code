@@ -26,7 +26,9 @@ Y = train['label']
 # print(X)
 
 #Create Filter for convolution
-filter = np.array([[1,1,1,1,1],
+filter = np.array
+
+         ([[1,1,1,1,1],
           [1,1,1,1,1],
           [1,1,1,1,1],
           [1,1,1,1,1],
@@ -76,13 +78,15 @@ print(sX.shape)
 sampleSubmission=pd.read_csv('sample_submission.csv')
 sampleSubmission['Label'] = p
 sampleSubmission.to_csv('sub.csv', index=False)
-          filter = np.array([[1,1,1,1,1],
+          filter = np.array
+          ([[1,1,1,1,1],
           [1,1,1,1,1,],
           [1,1,1,1,1],
           [1,1,1,1,1],
           [1,1,1,1,1]])
           
-          filter = np.array([[1,1,1,1,1],
+          filter = np.array
+          ([[1,1,1,1,1],
           [1,2,2,2,1],
           [1,2,3,2,1],
           [1,2,2,2,1],
@@ -117,7 +121,8 @@ Y = train['label']
 # print(X)
 
 #Create Filter for convolution
-filter = np.array([[1,1,1,1,1],
+filter = np.array
+          ([[1,1,1,1,1],
           [1,1,1,1,1],
           [1,1,1,1,1],
           [1,1,1,1,1],
@@ -170,7 +175,8 @@ sampleSubmission=pd.read_csv('sample_submission.csv')
 sampleSubmission['Label'] = p
 sampleSubmission.to_csv('sub.csv', index=False)
 
-          filter = np.array([[1,1,1,1,1,1,1],
+          filter = np.array
+          ([[1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1],
@@ -178,7 +184,8 @@ sampleSubmission.to_csv('sub.csv', index=False)
           [1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1]])
           
-          filter = np.array([[1,1,1,1,1,1,1],
+          filter = np.array
+          ([[1,1,1,1,1,1,1],
           [1,2,2,2,2,2,1],
           [1,2,3,3,3,2,1],
           [1,2,3,4,3,2,1],
@@ -216,7 +223,8 @@ Y = train['label']
 # print(X)
 
 #Create Filter for convolution
-filter = np.array([[1,1,1,1,1,1,1,1,1],
+filter = np.array
+          ([[1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
@@ -271,7 +279,8 @@ sampleSubmission=pd.read_csv('sample_submission.csv')
 sampleSubmission['Label'] = p
 sampleSubmission.to_csv('sub.csv', index=False)
 
-filter = np.array([[1,1,1,1,1,1,1,1,1],
+filter = np.array
+          ([[1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
@@ -281,7 +290,8 @@ filter = np.array([[1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1],
           [1,1,1,1,1,1,1,1,1]])
           
-          filter = np.array([[1,1,1,1,1,1,1,1,1],
+          filter = np.array
+          ([[1,1,1,1,1,1,1,1,1],
           [1,2,2,2,2,2,2,2,1],
           [1,2,3,3,3,3,3,2,1],
           [1,2,3,4,4,4,3,2,1],
